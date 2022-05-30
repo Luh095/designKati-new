@@ -1,0 +1,263 @@
+body {
+  background-color: white;
+  padding: 0px;
+  margin: 0;
+}
+.container-image-text p{
+  font-family: 'Times New Roman', Times, serif;
+  margin-right: 5%;
+  font-size: 22px;
+  text-align:justify;
+  display: flex;
+  width: 80%;
+}
+.container-image-text {
+  display: flex;
+  padding-bottom: 40px;
+}
+.container-image-text img {
+  padding-left: 7%;
+  padding-right: 5%;
+  display: flex;
+  width: 700px;
+  height: 570px;
+}
+.container-image-text2 p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-right: 3%;
+  text-align:center;
+}
+.container-image-text2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-image-text2 img {
+  padding-left: 7%;
+  padding-right: 2%;
+  width: 100px;
+  height: 100px;
+}
+.container-image-text3 p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 3%;
+  width: 30%;
+}
+.container-image-text3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container-image-text3 img {
+  padding-left: 7%;
+  padding-right: 2%;
+  width: 100px;
+  height: 100px;
+}
+.container-text-video {
+  display: flex;
+}
+.container-text-video p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-left: 7%;
+  margin-right: 5%;
+  text-align: justify;
+  align-items: center;
+  display: flex;
+}
+.container-text-video img{
+  padding-left: 5%;
+  margin-right: 5%;
+  width: 650px;
+  height: 240px;
+}
+h1,
+ul,
+li{
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+header.header li {
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+}
+header.header {
+  background-color:  #8d7cc2;
+  text-align: right;
+  padding-right: 40px;
+  margin:0px;
+
+}
+header.header li a {
+  color: black;
+  text-decoration: none;
+  padding: 25px;
+  display: inline-block;
+}
+p.secao {
+  color: rgb(0, 0, 0);
+  font: initial;
+  font-family: sans-serif;
+  size: 15pt;
+}
+.content {
+  background-color: rgb(255, 255, 255);
+  padding:25px;
+  border: rgb(255, 255, 255);
+  border-radius: 0cm;
+  border-style: solid;
+}
+.imagem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+.active {
+  background-color: #fefefe;
+  text-decoration: underline;
+}
+.footer {
+  width: 100%;
+  height: 160px;
+  margin-top: 10px;
+  background-color: #8d7cc2;
+  position: relative;
+}
+.footer__social {
+  width: 100%;
+  padding-top: 8px;
+  display: flex;
+}
+.footer__social p{
+  margin-right: 5%;
+  text-align: justify;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 10%;
+  width: 50%;
+}
+.footer__social2 {
+  width: 100%;
+  display: flex;
+}
+.footer__social2 p{
+  margin-right: 5%;
+  font-size: 15px;
+  padding-top: 10px;
+  text-align: justify;
+  width: 50%;
+  padding-left: 10%;
+}
+.footer__copyright {
+  position: relative;
+  top: 10px;
+  bottom: 10px;
+  width: 100%;
+  font-size: 17px;
+  text-align: center;
+
+}
+.titulos{
+  font-size:45px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: left;
+  background-color: #dad2e9;
+  padding: 30px;
+  padding-left: 80px;
+}
+.titulos2{
+  font-size:45px;
+  font-family:'Times New Roman', Times, serif;
+  text-align: right;
+  background-color: #dad2e9;
+  padding: 30px;
+  padding-right: 80px;
+}
+.imagem-contato{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+input[type=submit]{
+  display: block;
+  background-color: #ccc;
+  height: 35px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+}
+.formulario{
+  width: 100%;
+  display: flex;
+  align-items: center;
+	flex-flow: column nowrap;
+  flex-direction: column;
+}
+.formulario p{
+  align-items: center;
+  font-size: 2.0em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.formulario b{
+  align-items: center;
+  font-size: 1.0em;
+  font-weight: bold;
+  margin-top: 25px;
+}
+.sobre p{
+  font-size: 1.0em;
+  font-weight: bold;
+  align-items: center;
+  padding-top: 20px;
+}
+.field{
+  width: 30%;
+  margin: 10px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.2em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=password],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
